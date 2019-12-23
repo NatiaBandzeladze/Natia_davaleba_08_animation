@@ -7,7 +7,7 @@ h1{
 body{
     position: relative;    
     background: #a9e4f9;
-    animation:colorchange 19s infinite alternate;    
+    animation:colorchange 15s infinite alternate;    
 }
 @-webkit-keyframes colorchange{
     0% {background-color: #a9e4f9;}
@@ -24,7 +24,7 @@ body{
     position: absolute;
     top: 150px;
     right: -10%;
-    animation: mymovesun 30s infinite ease; 
+    animation: mymovesun 25s infinite ease; 
    
 }
 @-webkit-keyframes mymovesun{
@@ -34,18 +34,19 @@ body{
 .moon{
     position: absolute;
     top: 150px;
-    right: -25%;
-    animation: mymovemoon 30s infinite ease;
+    right: -10%;
+    animation: mymovemoon 25s infinite ease;
+    animation-delay: 11s;
 }
-/* @-webkit-keyframes mymovemoon{
-    from {top:150px; right: -100%;}
-     to {top:150px; right: 100%;}
- } */
- @-webkit-keyframes mymovemoon{
+@-webkit-keyframes mymovemoon{
+    from {top:150px; right: -10%;}
+     to {top:150px; right: 140%;}
+ }
+ /* @-webkit-keyframes mymovemoon{
     0% {right:-50%}
     25% {right:-25%;}
     to{ right:100%}
- }
+ } */
 
 .road{
     position: absolute;
