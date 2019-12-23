@@ -1,0 +1,34 @@
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: chocolate;
+    padding: 1%;
+}
+.main{
+    position: relative;
+    background: #d3f5f7;
+    width: 100%;
+    height: 100%; 
+}
+.sun-moon img{
+    height: 250px;
+}
+.sun{
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+.moon{
+    position: absolute;
+    top: 0%;
+    left: -50%
+}
+.road{
+    position: absolute;
+    top: 400px;
+    left: 0;
+
+}
+.road img{
+    width: 100%;
+}
