@@ -61,7 +61,7 @@ body{
 }
 .car2{
     position: absolute;
-    top: 900px;
+    top: 950px;
     left: 0;
     animation: mymovecar2 10s infinite alternate;
 }
@@ -71,7 +71,7 @@ body{
  }
 .redcar{
     position: absolute;
-    top: 900px;
+    top: 1105px;
     right: 0;
     animation: mymovecar 10s infinite alternate;
 }
