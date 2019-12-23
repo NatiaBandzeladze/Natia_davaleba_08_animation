@@ -9,14 +9,7 @@ body{
     background: #a9e4f9;
     animation:colorchange 20s infinite;    
 }
-/* @-webkit-keyframes colorchange{
-    0% {background-color: #34778f;}
-    20% {background-color: #7cceeb;}
-    40% {background-color: #a9e4f9;}
-    60% {background-color: #7cceeb;}
-    80% {background-color: #184f63;}
-    100% {background-color: #000000;}
- } */
+
  @-webkit-keyframes colorchange{
     0%{ background-color: #34778f;}
     10%{background-color: #50abcc;}
@@ -57,11 +50,6 @@ body{
     from {top:150px; right: -10%;}
      to {top:150px; right: 230%;}
  }
- /* @-webkit-keyframes mymovemoon{
-    0% {right:-50%}
-    25% {right:-25%;}
-    to{ right:100%}
- } */
 
 .road{
     margin-top: 330px;
@@ -69,26 +57,26 @@ body{
 .road img{
     width: 100%;
 }
-/* .butterflies img{
+.butterflies img{
     height: 40px;
 }
 .butterfly1{
     position: absolute;
     top: 650px;
     left: 100px;
-    animation: fly1 5s ease;
+    animation: fly1 5s ease infinite;
 }
 .butterfly2{
     position: absolute;
     top: 720px;
     left: 170px;
-    animation: fly2 5s ease-in;
+    animation: fly2 5s ease-in infinite;
 }
 .butterfly3{
     position: absolute;
     top: 620px;
     left: 185px;
-    animation: fly3 5s ease-in-out;
+    animation: fly3 5s ease-in-out infinite;
 }
 @-webkit-keyframes fly3{
     0%   {left: 185px; top:620px;}
@@ -101,7 +89,7 @@ body{
     position: absolute;
     top: 685px;
     left: 250px;
-    animation: fly4 5s ease-out;
+    animation: fly4 7s ease-out infinite;
     
 }
 @-webkit-keyframes fly4{
@@ -116,20 +104,32 @@ body{
     position: absolute;
     top: 610px;
     left: 290px;
-    animation: fly5 3s step-end;
+    animation: fly5 3s ease-out infinite;
     
 }
 @-webkit-keyframes fly5{
     0%   {left: 290px; top:610px;}
-    20%  {left: 300px; top:600px;}
-    40%  {left: 310px; top:590px;}
-    50%  {left: 320px; top:580px;}
-    60%  {left: 315px; top:585px;}
-    70%  {left: 310px; top:590px;}
-    80%  {left: 305px; top:595px;}
-    90%  {left: 300px; top:600px;}
+    5%   {left: 300px; top:600px;}
+    10%  {left: 310px; top:590px;}
+    15%  {left: 320px; top:580px;}
+    20%  {left: 330px; top:580px;}
+    25%  {left: 340px; top:580px;}
+    30%  {left: 350px; top:580px;}
+    35%  {left: 355px; top:575px;}
+    40%  {left: 360px; top:570px;}
+    45%  {left: 365px; top:565px;}
+    50%  {left: 360px; top:570px;}
+    55%  {left: 355px; top:575px;}
+    60%  {left: 350px; top:580px;}
+    65%  {left: 345px; top:585px;}
+    70%  {left: 340px; top:590px;}
+    75%  {left: 335px; top:595px;}
+    80%  {left: 330px; top:600px;}
+    85%  {left: 325px; top:605px;}
+    90%  {left: 315px; top:610px;}
+    95%  {left: 305px; top:610px;}
     100% {left: 290px; top:610px;}
-} */
+}
 .cars img{
     height: 150px;
 }
