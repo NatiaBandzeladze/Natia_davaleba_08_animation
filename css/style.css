@@ -5,22 +5,48 @@ h1{
     padding: 1%;
 }
 body{
-    position: relative;
-    background: #d3f5f7;
+    position: relative;    
+    background: #a9e4f9;
+    animation:colorchange 19s infinite alternate;    
 }
+@-webkit-keyframes colorchange{
+    0% {background-color: #a9e4f9;}
+    25% {background-color: #7cceeb;}
+    50% {background-color: #34778f;}
+    75% {background-color: #184f63;}
+    100% {background-color: #000000;}
+ }
 .sun-moon img{
     height: 250px;
+    
 }
 .sun{
     position: absolute;
-    top: 100px;
-    left: 50%;
+    top: 150px;
+    right: -10%;
+    animation: mymovesun 30s infinite ease; 
+   
 }
+@-webkit-keyframes mymovesun{
+    from {right: -10%;}
+     to {right: 140%;}
+ }
 .moon{
     position: absolute;
-    top: 100px;
-    left: -50%
+    top: 150px;
+    right: -25%;
+    animation: mymovemoon 30s infinite ease;
 }
+/* @-webkit-keyframes mymovemoon{
+    from {top:150px; right: -100%;}
+     to {top:150px; right: 100%;}
+ } */
+ @-webkit-keyframes mymovemoon{
+    0% {right:-50%}
+    25% {right:-25%;}
+    to{ right:100%}
+ }
+
 .road{
     position: absolute;
     top: 400px;
@@ -29,15 +55,26 @@ body{
 .road img{
     width: 100%;
 }
+.cars img{
+    height: 150px;
+}
 .car2{
     position: absolute;
     top: 900px;
     left: 0;
-    height: 150px;
+    animation: mymovecar2 10s infinite alternate;
 }
+@-webkit-keyframes mymovecar2{
+    from {left:0;}
+     to {left: 90%;}
+ }
 .redcar{
     position: absolute;
     top: 900px;
     right: 0;
-    height: 150px;
+    animation: mymovecar 10s infinite alternate;
 }
+@-webkit-keyframes mymovecar{
+    from {right:0;}
+     to {right: 90%;}
+ }
