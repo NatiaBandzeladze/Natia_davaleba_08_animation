@@ -7,15 +7,30 @@ h1{
 body{
     position: relative;    
     background: #a9e4f9;
-    animation:colorchange 15s infinite alternate;    
+    animation:colorchange 20s infinite;    
 }
-@-webkit-keyframes colorchange{
-    0% {background-color: #a9e4f9;}
-    25% {background-color: #7cceeb;}
-    50% {background-color: #34778f;}
-    75% {background-color: #184f63;}
+/* @-webkit-keyframes colorchange{
+    0% {background-color: #34778f;}
+    20% {background-color: #7cceeb;}
+    40% {background-color: #a9e4f9;}
+    60% {background-color: #7cceeb;}
+    80% {background-color: #184f63;}
     100% {background-color: #000000;}
+ } */
+ @-webkit-keyframes colorchange{
+    0%{ background-color: #34778f;}
+    10%{background-color: #50abcc;}
+    20%{background-color: #56bde2;}
+    30%{background-color: #74cff0;}
+    40%{background-color: #4f9db9;}
+    50%{background-color: #275263;}
+    60%{background-color: #0f1c22;}
+    70%{background-color: #102025;}
+    80%{background-color: #020405;}
+    90%{background-color: #285363;}
+    100%{background-color: #3a778d;}
  }
+
 .sun-moon img{
     height: 250px;
     
@@ -24,23 +39,23 @@ body{
     position: absolute;
     top: 150px;
     right: -10%;
-    animation: mymovesun 25s infinite ease; 
+    animation: mymovesun 20s infinite linear; 
    
 }
 @-webkit-keyframes mymovesun{
     from {right: -10%;}
-     to {right: 140%;}
+     to {right: 230%;}
  }
 .moon{
     position: absolute;
     top: 150px;
     right: -10%;
-    animation: mymovemoon 25s infinite ease;
-    animation-delay: 11s;
+    animation: mymovemoon 20s infinite linear;
+    animation-delay: 10s;
 }
 @-webkit-keyframes mymovemoon{
     from {top:150px; right: -10%;}
-     to {top:150px; right: 140%;}
+     to {top:150px; right: 230%;}
  }
  /* @-webkit-keyframes mymovemoon{
     0% {right:-50%}
@@ -49,7 +64,7 @@ body{
  } */
 
 .road{
-    margin-top: 350px;
+    margin-top: 330px;
 }
 .road img{
     width: 100%;
