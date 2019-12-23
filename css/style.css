@@ -49,13 +49,72 @@ body{
  } */
 
 .road{
-    position: absolute;
-    top: 400px;
-    left: 0;
+    margin-top: 400px;
 }
 .road img{
     width: 100%;
 }
+/* .butterflies img{
+    height: 40px;
+}
+.butterfly1{
+    position: absolute;
+    top: 650px;
+    left: 100px;
+    animation: fly1 5s ease;
+}
+.butterfly2{
+    position: absolute;
+    top: 720px;
+    left: 170px;
+    animation: fly2 5s ease-in;
+}
+.butterfly3{
+    position: absolute;
+    top: 620px;
+    left: 185px;
+    animation: fly3 5s ease-in-out;
+}
+@-webkit-keyframes fly3{
+    0%   {left: 185px; top:620px;}
+    25%  {left:215px; top:650px;}
+    50%  {left: 185px; top:625px;}
+    75%  {left:215px; top:650px;}
+    100% {left: 185px; top:620px;}
+}
+.butterfly4{
+    position: absolute;
+    top: 685px;
+    left: 250px;
+    animation: fly4 5s ease-out;
+    
+}
+@-webkit-keyframes fly4{
+    0%   {left: 250px; top:685px;}
+    25%  {left:220px; top:665px;}
+    50%  {left: 200px; top:645px;}
+    75%  {left:220px; top:665px;}
+    100% {left: 250px; top:685px;}
+}
+
+.butterfly5{
+    position: absolute;
+    top: 610px;
+    left: 290px;
+    animation: fly5 3s step-end;
+    
+}
+@-webkit-keyframes fly5{
+    0%   {left: 290px; top:610px;}
+    20%  {left: 300px; top:600px;}
+    40%  {left: 310px; top:590px;}
+    50%  {left: 320px; top:580px;}
+    60%  {left: 315px; top:585px;}
+    70%  {left: 310px; top:590px;}
+    80%  {left: 305px; top:595px;}
+    90%  {left: 300px; top:600px;}
+    100% {left: 290px; top:610px;}
+} */
 .cars img{
     height: 150px;
 }
