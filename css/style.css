@@ -51,11 +51,10 @@ body{
      to {top:150px; right: 230%;}
  }
 
-.road{
-    margin-top: 330px;
-}
 .road img{
-    width: 100%;
+    position:absolute;
+    top:45px;
+    left:0;
 }
 .butterflies img{
     height: 40px;
