@@ -31,24 +31,24 @@ body{
 .sun{
     position: absolute;
     top: 150px;
-    right: -10%;
+    right: -20%;
     animation: mymovesun 20s infinite linear; 
    
 }
 @-webkit-keyframes mymovesun{
-    from {right: -10%;}
-     to {right: 230%;}
+    from {right: -20%;}
+     to {right: 240%;}
  }
 .moon{
     position: absolute;
     top: 150px;
-    right: -10%;
+    right: -20%;
     animation: mymovemoon 20s infinite linear;
     animation-delay: 10s;
 }
 @-webkit-keyframes mymovemoon{
-    from {top:150px; right: -10%;}
-     to {top:150px; right: 230%;}
+    from {top:150px; right: -20%;}
+     to {top:150px; right: 240%;}
  }
 
 .road img{
@@ -61,73 +61,128 @@ body{
 }
 .butterfly1{
     position: absolute;
-    top: 650px;
-    left: 100px;
-    animation: fly1 5s ease infinite;
+    top: 230px;
+    left: 200px;
+    animation: fly1 11s ease infinite;
 }
 .butterfly2{
     position: absolute;
-    top: 720px;
-    left: 170px;
-    animation: fly2 5s ease-in infinite;
+    top: 270px;
+    left: 300px;
+    animation: fly2 9s ease-in infinite;
+}
+@-webkit-keyframes fly2{
+    0%   {left: 300px; top:270px;}
+    5%   {left: 290px; top:280px;}
+    10%  {left: 285px; top:290px;}
+    15%  {left: 280px; top:300px;}
+    20%  {left: 275px; top:310px;}
+    25%  {left: 270px; top:285px;}
+    30%  {left: 260px; top:270px;}
+    35%  {left: 250px; top:260px;}
+    40%  {left: 245px; top:250px;}
+    45%  {left: 230px; top:245px;}
+    50%  {left: 220px; top:240px;}
+    55%  {left: 200px; top:235px;}
+    60%  {left: 210px; top:230px;}
+    65%  {left: 220px; top:215px;}
+    70%  {left: 230px; top:225px;}
+    75%  {left: 240px; top:235px;}
+    80%  {left: 250px; top:250px;}
+    85%  {left: 265px; top:260px;}
+    90%  {left: 280px; top:265px;}
+    95%  {left: 290px; top:265px;}
+    100% {left: 300px; top:270px;}
 }
 .butterfly3{
     position: absolute;
-    top: 620px;
-    left: 185px;
-    animation: fly3 5s ease-in-out infinite;
+    top: 190px;
+    left: 345px;
+    animation: fly3 7s ease-in-out infinite;
 }
 @-webkit-keyframes fly3{
-    0%   {left: 185px; top:620px;}
-    25%  {left:215px; top:650px;}
-    50%  {left: 185px; top:625px;}
-    75%  {left:215px; top:650px;}
-    100% {left: 185px; top:620px;}
+    0%   {left: 345px; top:190px;}
+    5%   {left: 340px; top:160px;}
+    10%  {left: 325px; top:130px;}
+    15%  {left: 310px; top:100px;}
+    20%  {left: 300px; top:105px;}
+    25%  {left: 290px; top:110px;}
+    30%  {left: 270px; top:115px;}
+    35%  {left: 255px; top:120px;}
+    40%  {left: 240px; top:125px;}
+    45%  {left: 230px; top:135px;}
+    50%  {left: 215px; top:140px;}
+    55%  {left: 220px; top:125px;}
+    60%  {left: 225px; top:130px;}
+    65%  {left: 230px; top:145px;}
+    70%  {left: 235px; top:160px;}
+    75%  {left: 240px; top:170px;}
+    80%  {left: 245px; top:175px;}
+    85%  {left: 260px; top:180px;}
+    90%  {left: 280px; top:185px;}
+    95%  {left: 300px; top:200px;}
+    100% {left: 345px; top:190px;}
 }
 .butterfly4{
     position: absolute;
-    top: 685px;
-    left: 250px;
-    animation: fly4 7s ease-out infinite;
+    top: 260px;
+    left: 400px;
+    animation: fly4 5s ease-out infinite;
     
 }
 @-webkit-keyframes fly4{
-    0%   {left: 250px; top:685px;}
-    25%  {left:220px; top:665px;}
-    50%  {left: 200px; top:645px;}
-    75%  {left:220px; top:665px;}
-    100% {left: 250px; top:685px;}
+    0%   {left: 400px; top:260px;}
+    5%   {left: 420px; top:255px;}
+    10%  {left: 540px; top:250px;}
+    15%  {left: 560px; top:245px;}
+    20%  {left: 570px; top:240px;}
+    25%  {left: 580px; top:235px;}
+    30%  {left: 590px; top:230px;}
+    35%  {left: 600px; top:225px;}
+    40%  {left: 610px; top:220px;}
+    45%  {left: 620px; top:235px;}
+    50%  {left: 630px; top:250px;}
+    55%  {left: 635px; top:240px;}
+    60%  {left: 640px; top:230px;}
+    65%  {left: 545px; top:225px;}
+    70%  {left: 580px; top:230px;}
+    75%  {left: 565px; top:235px;}
+    80%  {left: 550px; top:240px;}
+    85%  {left: 535px; top:245px;}
+    90%  {left: 520px; top:250px;}
+    95%  {left: 510px; top:260px;}
+    100% {left: 500px; top:260px;}
 }
 
 .butterfly5{
     position: absolute;
-    top: 610px;
-    left: 290px;
+    top: 200px;
+    left: 500px;
     animation: fly5 3s ease-out infinite;
     
 }
 @-webkit-keyframes fly5{
-    0%   {left: 290px; top:610px;}
-    5%   {left: 300px; top:600px;}
-    10%  {left: 310px; top:590px;}
-    15%  {left: 320px; top:580px;}
-    20%  {left: 330px; top:580px;}
-    25%  {left: 340px; top:580px;}
-    30%  {left: 350px; top:580px;}
-    35%  {left: 355px; top:575px;}
-    40%  {left: 360px; top:570px;}
-    45%  {left: 365px; top:565px;}
-    50%  {left: 360px; top:570px;}
-    55%  {left: 355px; top:575px;}
-    60%  {left: 350px; top:580px;}
-    65%  {left: 345px; top:585px;}
-    70%  {left: 340px; top:590px;}
-    75%  {left: 335px; top:595px;}
-    80%  {left: 330px; top:600px;}
-    85%  {left: 325px; top:605px;}
-    90%  {left: 315px; top:610px;}
-    95%  {left: 305px; top:610px;}
-    100% {left: 290px; top:610px;}
+    0%   {left: 500px; top:200px;}
+    5%   {left: 515px; top:210px;}
+    10%  {left: 520px; top:220px;}
+    15%  {left: 525px; top:230px;}
+    20%  {left: 530px; top:240px;}
+    25%  {left: 535px; top:250px;}
+    30%  {left: 540px; top:260px;}
+    35%  {left: 550px; top:270px;}
+    40%  {left: 560px; top:275px;}
+    45%  {left: 570px; top:280px;}
+    50%  {left: 580px; top:285px;}
+    55%  {left: 590px; top:290px;}
+    60%  {left: 600px; top:280px;}
+    65%  {left: 590px; top:270px;}
+    70%  {left: 580px; top:260px;}
+    75%  {left: 565px; top:250px;}
+    80%  {left: 550px; top:240px;}
+    85%  {left: 535px; top:230px;}
+    90%  {left: 520px; top:220px;}
+    95%  {left: 510px; top:210px;}
+    100% {left: 500px; top:200px;}
 }
 .cars img{
     height: 150px;
